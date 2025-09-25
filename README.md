@@ -150,7 +150,7 @@ The XGBoost model identified the most predictive cardiac markers:
 ### ⚠️ Model Limitations
 - **Single Misclassification**: Attributed to `ica_ic3_energy` feature edge case
 - **Dataset Balance**: Normal samples (75%) outnumber AFib (25%) - reflects real-world prevalence
-- **Feature Sensitivity**: ICA features may be sensitive to specific signal artifacts
+- **Small Dataset**: Five records per class, the sample size is still considered small for training a machine learning model that can generalize well. While each record is long and provides many windows, they still only represent a small number of individuals.
 
 ## 📝 Key Features
 
