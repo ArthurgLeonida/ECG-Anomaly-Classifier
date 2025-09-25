@@ -151,6 +151,7 @@ The XGBoost model identified the most predictive cardiac markers:
 - **Single Misclassification**: Attributed to `ica_ic3_energy` feature edge case
 - **Dataset Balance**: Normal samples (75%) outnumber AFib (25%) - reflects real-world prevalence
 - **Small Dataset**: Five records per class, the sample size is still considered small for training a machine learning model that can generalize well. While each record is long and provides many windows, they still only represent a small number of individuals.
+- **Small Window Size**: 30 seconds is considered short for some features that are created by PCA and ICA (Increasing it will increase the runtime).
 
 ## 📝 Key Features
 
