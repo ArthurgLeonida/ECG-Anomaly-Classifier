@@ -69,8 +69,9 @@ The [`ecg_processor_V2.py`](ecg_processor_V2.py) module implements a comprehensi
 ## 📁 Project Structure
 
 ```
-├── ECG_anomaly_class_ECG1.ipynb    # Main analysis notebook (4 records)
-├── ECG_anomaly_class_ECG2.ipynb    # Extended analysis (5 records)
+├── ECG_anomaly_class_ECG1.ipynb    # Analysis using the first lead
+├── ECG_anomaly_class_ECG2.ipynb    # Analysis using the second lead (main notebook)
+├── ECG_Apresentacao_PTBR.ipynb     # Presentation notebook in Portuguese
 ├── ecg_processor_V2.py             # Advanced feature extraction pipeline
 ├── README.md                       # Project documentation
 ├── data/                           # Generated feature datasets
@@ -97,7 +98,7 @@ The [`ecg_processor_V2.py`](ecg_processor_V2.py) module implements a comprehensi
 pip install wfdb numpy pandas matplotlib seaborn scikit-learn xgboost scipy
 ```
 ### 2. Run Notebook
-Open and run [`ECG_anomaly_class_ECG1.ipynb`](ECG_anomaly_class_ECG1.ipynb) to:
+Open and run [`ECG_anomaly_class_ECG2.ipynb`](ECG_anomaly_class_ECG2.ipynb) to:
 - Load preprocessed features from CSV files
 - Perform statistical analysis of feature discriminative power
 - Train XGBoost classifier with medical-optimized parameters
